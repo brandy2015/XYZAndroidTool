@@ -3,7 +3,7 @@ package com.zhangqian.testleancloud.XYZFunction
 import java.io.Closeable
 import java.io.IOException
 
-object CloseIoUtils {
+//object CloseIoUtils {
 
 //    /**
 //     * 关闭IO
@@ -22,4 +22,4 @@ object CloseIoUtils {
 //            }
 //    }
 
-}
+//}
