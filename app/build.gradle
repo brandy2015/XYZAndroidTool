@@ -1,11 +1,12 @@
 plugins {
-    id 'com.android.library'
+//    id 'com.android.library'
+    id 'com.android.application'
     id 'kotlin-android'
     id 'maven-publish'
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
     defaultConfig {
