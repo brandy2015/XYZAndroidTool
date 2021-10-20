@@ -13,7 +13,6 @@ import com.google.android.material.internal.ContextUtils
 class XYZFunctions {
 }
 
-@JvmName("PrintX1")
 fun String.PrintX(){
     Log.d("已运行,输出控制台",this) }
 
