@@ -1,12 +1,8 @@
-XYZSaveData.ktpackage com.xyztech.androidwozaichat.ui.XYZFunctions
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import androidx.fragment.app.Fragment
-
-//class XYZPresent {
-//}
 
 
 var XYZVCXA = XYZVCXAobject()
