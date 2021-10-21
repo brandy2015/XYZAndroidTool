@@ -1,4 +1,4 @@
-package com.xyztech.androidwozaichat.ui.XYZFunctions
+XYZSaveData.ktpackage com.xyztech.androidwozaichat.ui.XYZFunctions
 
 import android.app.Activity
 import android.content.Context
