@@ -23,15 +23,21 @@ fun PrintX(Message:String){
 fun PrintX(Message:Int){
     Log.d("已运行,输出控制台","${Message}") }
 
-
+//fun XYZcopyTextToClipboardx(context: Context, textToCopy:String) {
+//    val cm = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+//    val clipData = ClipData.newPlainText("text", textToCopy)
+//    cm.setPrimaryClip(clipData)
+//}
 //XYZString
 @SuppressLint("RestrictedApi")
 fun XYZcopyTextToClipboard(context: Context, textToCopy:String) {
-
-    val clipboardManager = ContextUtils.getActivity(context)
-            ?.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+    val cm = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
     val clipData = ClipData.newPlainText("text", textToCopy)
-    clipboardManager.setPrimaryClip(clipData)
+    cm.setPrimaryClip(clipData)
+//    val clipboardManager = ContextUtils.getActivity(context)
+//            ?.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+//    val clipData = ClipData.newPlainText("text", textToCopy)
+//    clipboardManager.setPrimaryClip(clipData)
 //        Toast.makeText(this, "Text copied to clipboard", Toast.LENGTH_LONG).show()
 }
 
